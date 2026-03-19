@@ -12,10 +12,21 @@
     <p class="eyebrow">OpenClaw Academic Supplement</p>
     <h1>PEV Workflow Supplement</h1>
     <p class="lead">
-      This page is only for the PEV visual-workflow evidence around the proposal pain-point figure.
-      It packages the current final figure, a one-shot OpenRouter baseline, a direct Codex SVG
-      baseline, and the concrete prompts and commands used to make those comparison assets.
+      This page is a self-contained supplement for the PEV visual workflow behind the proposal
+      pain-point figure. It compares the published final figure against two single-step baselines
+      and includes the exact prompts and workflow record needed to understand the comparison
+      without any internal project files.
     </p>
+
+    <section class="record-card">
+      <h2>Shared Figure Target</h2>
+      <p>
+        All three images below aim to communicate the same message: moving from one agent to many
+        agents on a shared cluster creates contention, hidden occupancy, interference, and lower
+        performance predictability. The target layout is a three-column comparison plus a bottom
+        consequence strip.
+      </p>
+    </section>
 
     <section class="compare-grid">
       <article class="figure-card">
@@ -23,8 +34,8 @@
         <h2>Current Fig. 3 In Proposal</h2>
         <img src="../assets/fig3-final-pev.png" alt="Current final Fig. 3 from the proposal">
         <p>
-          This is the current proposal pain-point figure produced through the project’s PEV-style
-          visual workflow and used in the published PDF.
+          This is the published figure used in the proposal PDF. It was produced with a three-step
+          PEV workflow: message planning, asset execution, and page-scale validation.
         </p>
       </article>
 
@@ -33,8 +44,8 @@
         <h2>OpenRouter Image Baseline</h2>
         <img src="../assets/fig3-openrouter-one-shot.png" alt="OpenRouter one-shot baseline">
         <p>
-          Single OpenRouter image-generation run against the same Fig. 3 message target. It is
-          useful for fast ideation but drifts more easily in label budget and emphasis.
+          This is a single OpenRouter image-generation run against the same figure target. It is
+          useful for fast ideation, but it drifts more easily in label budget and emphasis.
         </p>
       </article>
 
@@ -43,9 +54,9 @@
         <h2>Codex Direct SVG Baseline</h2>
         <img src="../assets/fig3-codex-direct.png" alt="Codex direct SVG baseline">
         <p>
-          Hand-authored SVG against the same message target. It preserves exact structure and is
-          fully editable, but relies on manual layout discipline instead of executor-plus-validator
-          iteration.
+          This is a single direct-SVG attempt from Codex against the same target. It preserves exact
+          structure and editability, but it depends on one drafting pass rather than iterative
+          execution plus validation.
         </p>
       </article>
     </section>
@@ -53,58 +64,52 @@
     <section class="record-card">
       <h2>Why This Supports The PEV Claim</h2>
       <p>
-        The one-shot model path and the direct SVG path are both valid baselines, but neither one
-        alone is how the current final figure was made. The proposal figure became more reliable by
-        separating message planning, asset execution, and page-scale validation rather than forcing
-        all of that into a single generation step.
+        The two baselines are intentionally strong: one uses a modern one-shot image model, and the
+        other uses an editable vector drawing path. Even so, the published figure is more stable in
+        message structure, label control, and proposal-scale readability because it was not forced
+        through a single generation step.
       </p>
       <p>
-        This supplement is therefore scoped to the PEV workflow itself: it is not a general
-        appendix, and it exists specifically to show why the final visual asset was stronger than
-        either baseline used alone.
+        The point of this supplement is therefore narrow and explicit: it exists only to document
+        the PEV workflow and to show why the final figure was stronger than either single-step
+        baseline used alone.
       </p>
     </section>
 
     <section class="record-card">
-      <h2>Reproducibility Record</h2>
+      <h2>Self-Contained Reproduction Record</h2>
       <p>
-        The record below lists the common message target, the final PEV figure path, the validator
-        session, and the exact OpenRouter and direct-SVG commands used for the comparison assets.
+        The record below is written for external readers. It avoids internal file paths and gives
+        the exact prompts plus the final PEV workflow record in plain language.
       </p>
-      <pre>Common message target
-- Same semantic target as current proposal Fig. 3:
-  single worker path, same-user visible contention, multi-user opaque contention, bottom consequence strip.
+      <pre>Common target for all three images
+- Show the pain point of parallel research on a shared cluster.
+- Use a three-column layout plus a bottom consequence strip.
+- Column 1: single agent workflow.
+- Column 2: same user launches multiple agents and sees mild contention.
+- Column 3: multiple users share one cluster and create hidden occupancy and stronger conflict.
+- Bottom strip labels: contention, hidden occupancy, interference, SLO drop.
 
-Current PEV-produced figure
-- Live asset: /assets/fig3-final-pev.png
-- Working source asset: output/section-2-3-panels-final-v2.png
-- Validator session:
-  ~/.codex/sessions/2026/03/19/rollout-2026-03-19T16-39-22-019d053f-d4dc-7211-9850-04e0d0ec9f99.jsonl
+Prompt A: one-shot OpenRouter image baseline
+"Create a single wide academic infographic on a white background for a systems research proposal. Show the pain point of parallel research on a shared cluster. Use a 3-column plus bottom-strip layout. Left column title: 'Single Agent Work' with a simple pipeline local -> build -> upload -> remote -> run. Middle column title: 'Same User Parallel' with one user launching agent A and agent B onto a shared cluster, with mild visible contention. Right column title: 'Multi-User Shared Cluster' with user 1 and user 2 each launching agents into one shared cluster, with hidden occupancy, opaque intent, and stronger conflict. Bottom strip with four tiny labels only: contention, hidden occupancy, interference, SLO drop. Flat vector academic style, icon-first, thin borders, blue/orange/gray/red palette, large readable English labels, no paragraphs, no product names, no watermark, no glossy poster style, no purple, no decorative background."
 
-OpenRouter one-shot comparison
-- Live asset: /assets/fig3-openrouter-one-shot.png
-- Working asset: output/fig3-openrouter-nanobanana.png
-- Command:
-  source ~/.bashrc >/dev/null 2>&1 && python3 tools/openrouter_generate_image.py \
-    --model google/gemini-3.1-flash-image-preview \
-    --modalities image,text \
-    --aspect-ratio 16:9 \
-    --prompt "Create a single wide academic infographic on a white background for a systems research proposal. Show the pain point of parallel research on a shared cluster. Use a 3-column plus bottom-strip layout. Left column title: 'Single Agent Work' with a simple pipeline local -> build -> upload -> remote -> run. Middle column title: 'Same User Parallel' with one user launching agent A and agent B onto a shared cluster, with mild visible contention. Right column title: 'Multi-User Shared Cluster' with user 1 and user 2 each launching agents into one shared cluster, with hidden occupancy, opaque intent, and stronger conflict. Bottom strip with four tiny labels only: contention, hidden occupancy, interference, SLO drop. Flat vector academic style, icon-first, thin borders, blue/orange/gray/red palette, large readable English labels, no paragraphs, no product names, no watermark, no glossy poster style, no purple, no decorative background." \
-    --out output/fig3-openrouter-nanobanana.png
+Prompt B: direct Codex SVG baseline
+"Draw a clean academic SVG diagram, not a decorative poster. White background, thin borders, readable English labels, and a 16:9 layout. Make three columns and one bottom strip. Column 1 is 'Single Agent Work' with a local-to-remote pipeline. Column 2 is 'Same User Parallel' with one user launching two agents into one shared cluster, showing mild visible contention. Column 3 is 'Multi-User Shared Cluster' with two users launching agents into one shared cluster, showing hidden occupancy, opaque intent, and stronger conflict. Bottom strip must contain exactly four labels: contention, hidden occupancy, interference, SLO drop. Keep the figure icon-first, editable, and suitable for a proposal PDF."
 
-Direct Codex SVG comparison
-- Live asset: /assets/fig3-codex-direct.png
-- SVG source: /assets/fig3-codex-direct.svg
-- Working SVG source: output/fig3-codex-direct.svg
-- Render command:
-  rsvg-convert output/fig3-codex-direct.svg -o output/fig3-codex-direct.png -w 2488
+PEV workflow record for the final published figure
+1. Planning
+   Write a short message brief before drawing: fix the three-column story, the bottom-strip consequences, the visual hierarchy, and the allowed label budget.
+2. Execution
+   Draw the figure as a set of controlled vector assets and merged panels instead of relying on one model output. Keep terminology and icon structure aligned with the planning brief.
+3. Validation
+   Inspect the near-final figure at proposal-PDF scale. Check title readability, label density, panel balance, and whether the visual emphasis still matches the intended message. Revise and rerender until those checks pass.
 
 Interpretation
-- One-shot image generation is good for fast visual exploration.
-- Direct SVG is good for exact control and editability.
-- The final proposal figure was stronger because it used PEV rather than relying on only one of those paths.</pre>
+- The one-shot OpenRouter baseline is strong for rapid visual ideation, but it drifts more easily.
+- The direct SVG baseline is strong for exact structure and editability, but it depends heavily on one drafting pass.
+- The published figure is stronger because PEV separates planning, execution, and validation instead of asking one step to do everything.</pre>
       <div class="record-links">
-        <a href="../assets/fig3-pev-reproducibility.txt">Download text record</a>
+        <a href="../assets/fig3-pev-reproducibility.txt">Download self-contained text record</a>
         <a href="../assets/fig3-codex-direct.svg">Download SVG source</a>
       </div>
     </section>

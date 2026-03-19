@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2488" height="1112" viewBox="0 0 2488 1112">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5f8fb"/>
+      <stop offset="100%" stop-color="#edf3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#b6c6d4" flood-opacity="0.2"/>
+    </filter>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#557d9f"/>
+    </marker>
+    <marker id="arrowOrange" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#c77737"/>
+    </marker>
+    <marker id="arrowRed" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#b9554d"/>
+    </marker>
+  </defs>
+
+  <rect width="2488" height="1112" fill="url(#bg)"/>
+  <rect x="36" y="28" width="2416" height="1050" rx="34" fill="#ffffff" stroke="#d3dfe8" stroke-width="3" filter="url(#shadow)"/>
+
+  <text x="86" y="110" font-size="56" font-weight="750" fill="#23374b">Direct Codex SVG: Fig. 3 style shared-cluster pain point</text>
+  <text x="86" y="158" font-size="28" font-weight="500" fill="#6e879b">Same message target as the one-shot image version: single worker path, same-user contention, multi-user opacity, shared consequences.</text>
+
+  <rect x="80" y="210" width="708" height="660" rx="28" fill="#f8fbfd" stroke="#bfd0dc" stroke-width="3"/>
+  <rect x="890" y="210" width="708" height="660" rx="28" fill="#fbfaf7" stroke="#d9c9b7" stroke-width="3"/>
+  <rect x="1700" y="210" width="708" height="660" rx="28" fill="#fcf8f7" stroke="#d7c0bc" stroke-width="3"/>
+
+  <text x="122" y="288" font-size="42" font-weight="720" fill="#30516c">Single Agent Work</text>
+  <text x="932" y="288" font-size="42" font-weight="720" fill="#8a562b">Same User Parallel</text>
+  <text x="1742" y="288" font-size="42" font-weight="720" fill="#8f4e49">Multi-User Shared Cluster</text>
+
+  <rect x="126" y="360" width="108" height="86" rx="18" fill="#eef6fb" stroke="#6288a8" stroke-width="3"/>
+  <rect x="157" y="386" width="46" height="34" rx="6" fill="#d8e9f4" stroke="#6288a8" stroke-width="2"/>
+  <rect x="145" y="424" width="70" height="10" rx="5" fill="#6288a8"/>
+  <text x="180" y="500" font-size="27" font-weight="600" fill="#5e768a" text-anchor="middle">local</text>
+
+  <rect x="288" y="360" width="108" height="86" rx="18" fill="#fff3e8" stroke="#c77737" stroke-width="3"/>
+  <rect x="316" y="378" width="52" height="50" rx="10" fill="#ffe2cb" stroke="#c77737" stroke-width="2"/>
+  <rect x="326" y="390" width="12" height="24" rx="3" fill="#c77737"/>
+  <rect x="346" y="396" width="12" height="18" rx="3" fill="#c77737"/>
+  <text x="342" y="500" font-size="27" font-weight="600" fill="#8a6c56" text-anchor="middle">build</text>
+
+  <rect x="450" y="360" width="108" height="86" rx="18" fill="#f8f3eb" stroke="#8a8e96" stroke-width="3"/>
+  <path d="M 488 400 h 32" stroke="#8a8e96" stroke-width="6" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <text x="504" y="500" font-size="27" font-weight="600" fill="#7d8086" text-anchor="middle">upload</text>
+
+  <rect x="612" y="360" width="108" height="86" rx="18" fill="#f1f5f8" stroke="#71889d" stroke-width="3"/>
+  <rect x="635" y="380" width="62" height="24" rx="6" fill="#d8e5ee" stroke="#71889d" stroke-width="2"/>
+  <rect x="635" y="412" width="62" height="16" rx="6" fill="#d8e5ee" stroke="#71889d" stroke-width="2"/>
+  <text x="666" y="500" font-size="27" font-weight="600" fill="#6d7f8f" text-anchor="middle">remote</text>
+
+  <line x1="236" y1="403" x2="286" y2="403" stroke="#557d9f" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+  <line x1="398" y1="403" x2="448" y2="403" stroke="#c77737" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <line x1="560" y1="403" x2="610" y2="403" stroke="#8a8e96" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowBlue)"/>
+
+  <rect x="266" y="584" width="336" height="176" rx="24" fill="#f6fafc" stroke="#b6c8d6" stroke-width="3"/>
+  <rect x="308" y="622" width="252" height="72" rx="16" fill="#e8f1f7" stroke="#5f86a6" stroke-width="3"/>
+  <path d="M 334 668 h 40" stroke="#5f86a6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 334 648 h 70" stroke="#5f86a6" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 334 688 h 88" stroke="#5f86a6" stroke-width="6" stroke-linecap="round"/>
+  <text x="434" y="719" font-size="30" font-weight="700" fill="#365a76" text-anchor="middle">run benchmark</text>
+  <text x="434" y="812" font-size="30" font-weight="560" fill="#6f879a" text-anchor="middle">One worker already spans several stages.</text>
+
+  <circle cx="1024" cy="392" r="36" fill="#f7e5d2" stroke="#c77737" stroke-width="3"/>
+  <circle cx="1024" cy="370" r="14" fill="#c77737"/>
+  <path d="M 994 428 q 30 -28 60 0" fill="none" stroke="#c77737" stroke-width="5" stroke-linecap="round"/>
+  <text x="1024" y="484" font-size="26" font-weight="600" fill="#946d4a" text-anchor="middle">user</text>
+
+  <rect x="918" y="560" width="176" height="100" rx="22" fill="#fff6ed" stroke="#c77737" stroke-width="3"/>
+  <rect x="1108" y="560" width="176" height="100" rx="22" fill="#fff6ed" stroke="#c77737" stroke-width="3"/>
+  <text x="1006" y="620" font-size="34" font-weight="720" fill="#91582d" text-anchor="middle">agent A</text>
+  <text x="1196" y="620" font-size="34" font-weight="720" fill="#91582d" text-anchor="middle">agent B</text>
+  <text x="1006" y="653" font-size="24" font-weight="560" fill="#987861" text-anchor="middle">ablation</text>
+  <text x="1196" y="653" font-size="24" font-weight="560" fill="#987861" text-anchor="middle">debug</text>
+
+  <rect x="1298" y="510" width="214" height="210" rx="24" fill="#f4f6f8" stroke="#7f8f9d" stroke-width="3"/>
+  <text x="1405" y="560" font-size="32" font-weight="720" fill="#596c7e" text-anchor="middle">shared cluster</text>
+  <rect x="1344" y="600" width="122" height="30" rx="8" fill="#dfe6ec" stroke="#7f8f9d" stroke-width="2"/>
+  <rect x="1344" y="646" width="122" height="30" rx="8" fill="#dfe6ec" stroke="#7f8f9d" stroke-width="2"/>
+  <rect x="1344" y="692" width="122" height="30" rx="8" fill="#dfe6ec" stroke="#7f8f9d" stroke-width="2"/>
+  <circle cx="1466" cy="628" r="14" fill="#e59b62"/>
+  <circle cx="1466" cy="674" r="14" fill="#e59b62"/>
+  <circle cx="1466" cy="720" r="14" fill="#e59b62"/>
+  <text x="1405" y="776" font-size="28" font-weight="560" fill="#8f775f" text-anchor="middle">still self-visible</text>
+
+  <line x1="1024" y1="430" x2="1006" y2="557" stroke="#c77737" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <line x1="1024" y1="430" x2="1196" y2="557" stroke="#c77737" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <line x1="1094" y1="610" x2="1294" y2="610" stroke="#c77737" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <line x1="1284" y1="610" x2="1294" y2="610" stroke="#c77737" stroke-width="5" stroke-linecap="round"/>
+  <line x1="1284" y1="660" x2="1294" y2="660" stroke="#c77737" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowOrange)"/>
+  <path d="M 1138 708 C 1188 764 1256 790 1348 790" fill="none" stroke="#b67b47" stroke-width="4" stroke-dasharray="10 10"/>
+  <text x="1140" y="812" font-size="28" font-weight="560" fill="#9e805d">can still coordinate priorities</text>
+
+  <circle cx="1826" cy="372" r="34" fill="#f8e1df" stroke="#ba645b" stroke-width="3"/>
+  <circle cx="1826" cy="352" r="12" fill="#ba645b"/>
+  <path d="M 1798 406 q 28 -24 56 0" fill="none" stroke="#ba645b" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="2060" cy="372" r="34" fill="#f8e1df" stroke="#ba645b" stroke-width="3"/>
+  <circle cx="2060" cy="352" r="12" fill="#ba645b"/>
+  <path d="M 2032 406 q 28 -24 56 0" fill="none" stroke="#ba645b" stroke-width="5" stroke-linecap="round"/>
+  <text x="1826" y="458" font-size="24" font-weight="600" fill="#966d69" text-anchor="middle">user 1</text>
+  <text x="2060" y="458" font-size="24" font-weight="600" fill="#966d69" text-anchor="middle">user 2</text>
+
+  <rect x="1744" y="534" width="146" height="84" rx="20" fill="#fdf0ee" stroke="#ba645b" stroke-width="3"/>
+  <rect x="1744" y="646" width="146" height="84" rx="20" fill="#fdf0ee" stroke="#ba645b" stroke-width="3"/>
+  <rect x="1996" y="534" width="146" height="84" rx="20" fill="#fdf0ee" stroke="#ba645b" stroke-width="3"/>
+  <rect x="1996" y="646" width="146" height="84" rx="20" fill="#fdf0ee" stroke="#ba645b" stroke-width="3"/>
+  <text x="1817" y="586" font-size="28" font-weight="720" fill="#9a534d" text-anchor="middle">agent A</text>
+  <text x="1817" y="698" font-size="28" font-weight="720" fill="#9a534d" text-anchor="middle">agent B</text>
+  <text x="2069" y="586" font-size="28" font-weight="720" fill="#9a534d" text-anchor="middle">agent C</text>
+  <text x="2069" y="698" font-size="28" font-weight="720" fill="#9a534d" text-anchor="middle">agent D</text>
+
+  <rect x="2218" y="514" width="150" height="244" rx="24" fill="#f2f4f6" stroke="#7c8d9c" stroke-width="3"/>
+  <text x="2293" y="560" font-size="28" font-weight="720" fill="#5d7182" text-anchor="middle">shared</text>
+  <text x="2293" y="596" font-size="28" font-weight="720" fill="#5d7182" text-anchor="middle">cluster</text>
+  <rect x="2254" y="628" width="78" height="24" rx="6" fill="#dce4eb" stroke="#7c8d9c" stroke-width="2"/>
+  <rect x="2254" y="666" width="78" height="24" rx="6" fill="#dce4eb" stroke="#7c8d9c" stroke-width="2"/>
+  <rect x="2254" y="704" width="78" height="24" rx="6" fill="#dce4eb" stroke="#7c8d9c" stroke-width="2"/>
+  <circle cx="2293" cy="790" r="42" fill="#fbe3df" stroke="#ba645b" stroke-width="3"/>
+  <text x="2293" y="800" font-size="50" font-weight="800" fill="#ba645b" text-anchor="middle">?</text>
+  <text x="2293" y="864" font-size="26" font-weight="560" fill="#9a706c" text-anchor="middle">opaque occupancy</text>
+
+  <line x1="1826" y1="406" x2="1817" y2="530" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="1826" y1="406" x2="1817" y2="642" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="2060" y1="406" x2="2069" y2="530" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="2060" y1="406" x2="2069" y2="642" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="1892" y1="576" x2="2212" y2="576" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="1892" y1="688" x2="2212" y2="644" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="2144" y1="576" x2="2212" y2="622" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <line x1="2144" y1="688" x2="2212" y2="700" stroke="#ba645b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrowRed)"/>
+  <path d="M 1716 786 C 1810 760 1900 742 1982 756" fill="none" stroke="#c6847c" stroke-width="4" stroke-dasharray="10 10"/>
+  <path d="M 1984 756 C 2072 772 2140 784 2204 798" fill="none" stroke="#c6847c" stroke-width="4" stroke-dasharray="10 10"/>
+  <text x="1762" y="842" font-size="28" font-weight="560" fill="#a37974">intent and priority are not mutually visible</text>
+
+  <rect x="80" y="910" width="2328" height="122" rx="26" fill="#f7fafc" stroke="#cfdae3" stroke-width="3"/>
+  <rect x="168" y="944" width="438" height="56" rx="18" fill="#fff2ea" stroke="#cc7b3e" stroke-width="3"/>
+  <rect x="686" y="944" width="510" height="56" rx="18" fill="#f5f7f9" stroke="#8496a5" stroke-width="3"/>
+  <rect x="1276" y="944" width="432" height="56" rx="18" fill="#fcebea" stroke="#bb655b" stroke-width="3"/>
+  <rect x="1788" y="944" width="460" height="56" rx="18" fill="#eef4f8" stroke="#6386a3" stroke-width="3"/>
+  <text x="387" y="980" font-size="32" font-weight="700" fill="#9a5f30" text-anchor="middle">contention</text>
+  <text x="941" y="980" font-size="32" font-weight="700" fill="#677a89" text-anchor="middle">hidden occupancy</text>
+  <text x="1492" y="980" font-size="32" font-weight="700" fill="#a1544c" text-anchor="middle">interference</text>
+  <text x="2018" y="980" font-size="32" font-weight="700" fill="#426984" text-anchor="middle">SLO drop</text>
+  <text x="1244" y="1060" font-size="26" font-weight="560" fill="#72879a" text-anchor="middle">Deterministic SVG keeps the exact message, label budget, and panel structure stable at proposal scale.</text>
+</svg>
